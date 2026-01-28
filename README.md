@@ -50,3 +50,25 @@ Get detailed information about XML structure and tag detection:
 
 
 ## Case Sensitivity
+
+Tag matching is case-sensitive. The following are treated as different tags:
+ProductID ≠ ProductId ≠ productid ≠ PRODUCTID
+
+
+## Element Counting
+
+The script counts XML elements, not raw text tags. Each <Tag>...</Tag> pair counts as 1 occurrence, not 2.
+Example:
+
+<RecordID>123</RecordID>
+<RecordID>456</RecordID>
+
+## Troubleshooting
+
+No files found
+
+1. Verify the directory path is correct
+2. Check that files with the specified extensions exist
+3. Ensure you have read permissions for the directory
+
+## No occurrences found 
