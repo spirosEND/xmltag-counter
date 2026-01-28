@@ -72,3 +72,30 @@ No files found
 3. Ensure you have read permissions for the directory
 
 ## No occurrences found 
+
+1. Verify the tag name is spelled correctly (case-sensitive!)
+2. Run with -ShowDebug to see what tags are actually in your XML files
+3. Check if the tag might be in a namespace (the script handles this automatically)
+
+
+## Performance
+
+The script processes files sequentially and is optimized for:
+
+Small to medium files (< 10MB): Very fast
+Large files (> 10MB): May take longer, use -ShowProgress to monitor
+Many files (100+): Progress indicator recommended
+Typical performance:
+~50 files/second for average-sized XML files
+Processing time scales linearly with file count and size
+
+## Contributions
+
+Contributions are more than welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/AmazingFeature)
+3. Commit your changes (git commit -m 'Add some AmazingFeature')
+4. Push to the branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
