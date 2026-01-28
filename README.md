@@ -19,7 +19,7 @@ A PowerShell script that recursively searches through XML files in a directory a
 - **PowerShell 5.1** or later
 - **Windows OS** (uses Windows PowerShell cmdlets)
 
-## Installation
+## Installation and Execution
 
 1. Clone this repository:
    git clone https://github.com/spirosEND/xmltag-counter.git
